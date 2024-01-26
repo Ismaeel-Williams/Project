@@ -39,13 +39,20 @@ header h1 {
 }
 
 img {
+  max-width: 900px;
   width: 100%;
+  margin: 0 auto;
   object-fit: contain;
   display: block;
 }
 
 footer p {
+  font-size: 21px;
   color: black;
+}
+
+footer {
+  padding: 50px;
 }
 
 /* CLASSES */
@@ -58,9 +65,26 @@ footer p {
 
 .img-p {
   font-size: 14px;
+  padding-bottom: 30px;
   margin: 10px 0;
 }
 
 .img-box {
   margin: 10px 15px;
+  background-color: white;
+}
+
+.div-box {
+  margin: 10px auto;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+.description {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
