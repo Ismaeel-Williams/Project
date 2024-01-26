@@ -4,8 +4,43 @@
   box-sizing: border-box;
 }
 
+h1,
+h3,
+p {
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  color: rgb(61, 57, 57);
+}
+
+li {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+header h1 {
+  font-size: 46px;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+
+footer p {
+  color: black;
+}
+
+/* CLASSES */
 .wrapper {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.img-p {
+  font-size: 14px;
+  margin: 10px 0;
 }
